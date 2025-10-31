@@ -5,10 +5,10 @@ const profile = {
         return `${profile.username} has ${profile.playTime} active hours!`;
     },
     changeUsername(newUsername) {
-        profile.username = newUsername;
+        this.username = newUsername;
     },
     updatePlayTime(newPlayTime) {
-        profile.playTime += newPlayTime;
+        this.playTime += newPlayTime;
     }
     
 };
